@@ -14,7 +14,7 @@ int main() {
     if (GPA >= 3.50) {
         cout << name << " Inw Jrim Jrim!!!" << endl;
     } else {
-        cout << "Try harder, " << name << " !!!" << endl ;
+        cout << "Try harder, " << name << "!!!" << endl ;
     }
 
     return 0;
