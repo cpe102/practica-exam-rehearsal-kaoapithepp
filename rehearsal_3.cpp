@@ -1,6 +1,22 @@
 #include <iostream>
+#include <cmath>
 
-//Write sumSqrt() here.
+using namespace std;
+
+float sumSqrt(float N) {
+    float sum,R=1,zero=0,ans=0;
+    while (R <= N){
+        sum = 1/pow(R,0.5);
+        ans = ans + sum;
+        R++;
+    }
+    
+    if (N > 0){
+        return ans;
+    } else {
+        return zero;
+    }
+}
 
 
 int main()
